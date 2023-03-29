@@ -7,6 +7,7 @@ import static seedu.roles.testutil.Assert.assertThrows;
 public class StringDisplayTest {
     @Test
     public void constructor_null_throwsNullPointerException() {
-        assertThrows(NullPointerException.class, () -> RoleDisplay.of(null));
+        assertThrows(NullPointerException.class, () -> StringDisplay.of(null));
     }
+
 }
