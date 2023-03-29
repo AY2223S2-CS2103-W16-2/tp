@@ -1,9 +1,9 @@
 package seedu.roles.ui.displays;
 
+import static java.util.Objects.requireNonNull;
+
 import javafx.scene.Node;
 import javafx.scene.control.TextArea;
-
-import static java.util.Objects.requireNonNull;
 
 /**
  * A customizable display for Strings. Will be displayed in ResultDisplay.
